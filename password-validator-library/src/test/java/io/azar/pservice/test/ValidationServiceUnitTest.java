@@ -39,7 +39,7 @@ public class ValidationServiceUnitTest {
 
 	@Test(expected = PasswordAllowedCharsViolationException.class)
 	public void specialCharacterPasswordTest() {
-		validationService.validatePassword("@@$_abcde12");
+		validationService.validatePassword("@@$_pass12");
 	}
 
 	@Test(expected = PasswordRepeatedSubsequenceExistsException.class)
