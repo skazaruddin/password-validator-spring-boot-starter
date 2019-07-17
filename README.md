@@ -91,17 +91,8 @@ public class PasswordValidationController {
 ```
 ### 2. Using in a spring boot project
 
-#### Update the spring boot version to your spring boot version parent pom.xml.i.e 
-````xml
- <spring-boot.version>1.5.6.RELEASE</spring-boot.version>
-````
-to
-````xml
-<spring-boot.version>{spring-boot-release}.RELEASE</spring-boot.version>
-````
-#### Build the project using "mvn clean install"
+##### Build the project using "mvn clean install"
 
-Note: Only 1.5.x versions are supported
 
 ````xml
 <properties>
